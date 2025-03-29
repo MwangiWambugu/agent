@@ -1,1 +1,6 @@
+.venv
+.idea
+.vscode
+*.log
+*.pem
 .env
