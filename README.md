@@ -36,12 +36,12 @@ customer-support-agency/
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/customer-support-agency.git
-cd customer-support-agency
+cd customer-support-agents
 ```
 
 2. Install dependencies:
 ```bash
-pip install agency-swarm openai python-dotenv
+pip install agents-swarm openai python-dotenv
 ```
 
 3. Create a `.env` file with your API key:
