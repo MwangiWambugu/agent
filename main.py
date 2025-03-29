@@ -8,9 +8,9 @@ if __name__ == "__main__":
         user_input = input("Customer: ")
         if user_input.lower() == "exit":
             break
-        
+
         # Process through CEO agent
         response = agency.get_completion(user_input, recipient=agency.ceo)
-        
+
         print("\nSupport Agent:", response)
-        print("\n" + "-"*50 + "\n")
+        print("\n" + "-" * 50 + "\n")

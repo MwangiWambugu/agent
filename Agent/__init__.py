@@ -1,1 +1,1 @@
-from .TextAgent import TextAgent
+from .text_agent import TextAgent
