@@ -7,7 +7,7 @@ class SupportSpecialist(Agent):
         super().__init__(
             name="SupportSpecialist",
             description="Handles general customer inquiries and order checks",
-            instructions="Be friendly and helpful. Use knowledge base for product info and order system for status checks.",
+            instructions="./agent/instructions/instructions_support.md",
             tools=[KnowledgeBaseSearch, OrderStatusCheck],
             temperature=0.5,
             max_prompt_tokens=20000

@@ -1,6 +1,5 @@
 from agency_swarm import Agent
 
-
 class TextAgent(Agent):
     def __init__(self):
         """
@@ -23,12 +22,7 @@ class TextAgent(Agent):
         super().__init__(
             name="TextAgent",
             description="Reply to customer queries and sell products to clients",
-            instructions="""
-            - Focus on sales and marketing inquiries
-            - Provide persuasive and informative responses
-            - Highlight product benefits and features
-            - Follow up with clear calls to action
-            """,
+            instructions="./agent/instructions/instructions_text-agent.md",
             temperature=0.3,
             max_prompt_tokens=25000,
         )
