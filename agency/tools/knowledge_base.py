@@ -16,7 +16,7 @@ class KnowledgeBaseSearch(BaseTool):
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system",
-                     "content": "You are a knowledgeable support agent. Answer based on company docs:"},
+                     "content": "You are a knowledgeable support agency. Answer based on company docs:"},
                     {"role": "user", "content": self.query}
                 ],
                 temperature=0.7

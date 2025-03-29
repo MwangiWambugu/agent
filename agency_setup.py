@@ -1,7 +1,7 @@
 from agency_swarm import Agency
-from agent.ceo import CustomerSupportCEO
-from agent.support_agent import SupportSpecialist
-from agent.text_agent import TextAgent
+from agency.ceo import CustomerSupportCEO
+from agency.support_agent import SupportSpecialist
+from agency.text_agent import TextAgent
 
 # Initialize agents
 ceo = CustomerSupportCEO()
