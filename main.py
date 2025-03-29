@@ -12,5 +12,5 @@ if __name__ == "__main__":
         # Process through CEO agent
         response = agency.get_completion(user_input, recipient=agency.ceo)
 
-        print("\nSupport Agent:", response)
+        print("\nSupport agent:", response)
         print("\n" + "-" * 50 + "\n")
